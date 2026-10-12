@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标的前景层：三个互锁的贤人块，取自参考实现的三个裁形多边形
+  （MELCHIOR / BALTHASAR / CASPER），缩进到 66dp 安全区内。
+  配色用 MAGI 主橙 #FF8D00。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- BALTHASAR • 2 —— 上方中央
+         clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 100%, 25% 100%, 0 80%) -->
+    <path
+        android:fillColor="#FF8D00"
+        android:pathData="M38,30 L70,30 L70,50.8 L62,56 L46,56 L38,50.8 Z" />
+
+    <!-- CASPER • 3 —— 左下
+         clip-path: polygon(0 0, 65% 0, 100% 44%, 100% 100%, 0 100%) -->
+    <path
+        android:fillColor="#FF8D00"
+        android:pathData="M27,56 L43.9,56 L53,66.56 L53,80 L27,80 Z" />
+
+    <!-- MELCHIOR • 1 —— 右下
+         clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%, 0 44%) -->
+    <path
+        android:fillColor="#FF8D00"
+        android:pathData="M64.1,56 L81,56 L81,80 L55,80 L55,66.56 Z" />
+
+    <!-- 三块之间的连线，对应面板里的三根连接杆 -->
+    <path
+        android:fillColor="#FF8D00"
+        android:pathData="M53.2,55.4 L54.8,55.4 L54.8,58.6 L53.2,58.6 Z" />
+    <path
+        android:fillColor="#FF8D00"
+        android:pathData="M34,51 L40,51 L40,53 L34,53 Z" />
+    <path
+        android:fillColor="#FF8D00"
+        android:pathData="M68,51 L74,51 L74,53 L68,53 Z" />
+</vector>

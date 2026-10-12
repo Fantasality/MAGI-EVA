@@ -1,0 +1,17 @@
+# 构建产物
+build/
+.gradle/
+local.properties
+*.idsig
+
+# IDE
+.idea/
+*.iml
+*.hprof
+
+# JVM 测试拉下来的第三方 jar（用 tools/jvmtest/run.sh 自行获取）
+tools/jvmtest/libs/*.jar
+
+
+# 面板预览的临时输出（正式配图放 docs/images/，见 tools/preview_panel.py）
+tools/preview_*.png

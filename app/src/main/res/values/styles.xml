@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      MAGI 主题：纯黑底 + 橙字，无 ActionBar。
+      基底用 framework 的 Theme.Material.NoActionBar（API 21+），
+      因此整个 app 不依赖 AndroidX / Material Components。
+    -->
+    <style name="Theme.Magi" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/magi_black</item>
+        <item name="android:colorBackground">@color/magi_black</item>
+        <item name="android:statusBarColor">@color/magi_black</item>
+        <item name="android:navigationBarColor">@color/magi_black</item>
+        <item name="android:colorAccent">@color/magi_orange</item>
+        <item name="android:colorPrimary">@color/magi_black</item>
+        <item name="android:colorPrimaryDark">@color/magi_black</item>
+        <item name="android:textColorPrimary">@color/magi_orange</item>
+        <item name="android:textColorSecondary">@color/magi_orange</item>
+        <item name="android:textColorHint">#88FF8D00</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

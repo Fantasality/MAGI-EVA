@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标的背景层：纯黑底 + EVA 标志性的 45° 斜纹
+  （参考实现 html 背景 repeating-linear-gradient 45deg 的同款手法）。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,0 H108 V108 H0 Z" />
+
+    <!-- 45° 斜纹：#140B02，间距与参考实现同为 20px 量级 -->
+    <group>
+        <path android:fillColor="#140B02" android:pathData="M-40,60 L20,-40 L50,-40 L-10,60 Z" />
+        <path android:fillColor="#140B02" android:pathData="M-20,100 L40,0 L70,0 L10,100 Z" />
+        <path android:fillColor="#140B02" android:pathData="M20,140 L80,40 L110,40 L50,140 Z" />
+        <path android:fillColor="#140B02" android:pathData="M60,180 L120,80 L150,80 L90,180 Z" />
+        <path android:fillColor="#140B02" android:pathData="M-60,20 L0,-80 L20,-80 L-40,20 Z" />
+    </group>
+</vector>

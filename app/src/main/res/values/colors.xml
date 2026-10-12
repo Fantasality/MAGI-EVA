@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  配色逐值来自参考实现（assets/style.css、components/*.js），非主观调整。
+-->
+<resources>
+    <color name="magi_orange">#FFFF8D00</color>
+    <color name="magi_stripe_dark">#FF140B02</color>
+    <color name="magi_header_green">#FF277547</color>
+    <color name="magi_yes">#FF52E691</color>
+    <color name="magi_no">#FFA41413</color>
+    <color name="magi_info">#FF3CAEE0</color>
+    <color name="magi_cond">#FF82CD68</color>
+    <color name="magi_black">#FF000000</color>
+    <color name="magi_hazard">#FFE8C000</color>
+</resources>
